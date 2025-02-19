@@ -1,18 +1,43 @@
 @import './header.scss';
-@import './vite-promo.scss';
+@import './hero.scss';
+@import './benefits.scss';
+@import './game-description.scss';
+@import './main-characters.scss';
+@import './gallery.scss';
+@import './faq.scss';
+@import './footer.scss';
+@import './cookies-policy.scss';
+@import './terms-and-conditions.scss';
+
+
+@font-face {
+  font-family: 'Inter';
+  src: url('../fonts/Inter_18pt-Regular.ttf');
+}
+
+@font-face {
+  font-family: 'Playfair Display';
+  src: url('../fonts/PlayfairDisplay-Regular.ttf');
+}
 
 :root {
-  font-family: Inter, Avenir, Helvetica, Arial, sans-serif;
-  font-size: 16px;
-  line-height: 24px;
-  font-weight: 400;
-
-  color: #242424;
-  background-color: rgba(255, 255, 255, 0.87);
+  --font-family: 'Inter', sans-serif;
+  --second-family: 'Playfair Display', sans-serif;
+  --main-background: #1E1E1E;
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   -webkit-text-size-adjust: 100%;
+}
+
+body {
+  font-family: var(--font-family);
+  background-color: var(--main-background);
+}
+
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--second-family);
 }
