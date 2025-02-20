@@ -5,10 +5,10 @@
 @import './main-characters.scss';
 @import './gallery.scss';
 @import './faq.scss';
+@import './reviews.scss';
 @import './footer.scss';
 @import './cookies-policy.scss';
 @import './terms-and-conditions.scss';
-
 
 // @font-face {
 //   font-family: 'Inter';
@@ -20,10 +20,14 @@
 //   src: url('../fonts/PlayfairDisplay-Regular.ttf');
 // }
 
+* {
+  -webkit-tap-highlight-color: transparent;
+}
+
 :root {
   --font-family: 'Inter', sans-serif;
   --second-family: 'Playfair Display', sans-serif;
-  --main-background: #1E1E1E;
+  --main-background: #1e1e1e;
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
@@ -37,7 +41,11 @@ body {
   background-color: var(--main-background);
 }
 
-
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   font-family: var(--second-family);
 }
