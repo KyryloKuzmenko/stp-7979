@@ -4,6 +4,11 @@
   background: #110a16;
   padding-top: 24px;
   padding-bottom: 24px;
+
+  @include media(desktop) {
+    padding-top: 62px;
+    padding-bottom: 62px;
+  }
 }
 
 .reviewsTitle {
@@ -12,6 +17,11 @@
   font-size: 26px;
   color: #d58d00;
   margin: 16px 0;
+
+  @include media(desktop) {
+    font-size: 40px;
+    margin: 0 0 42px 0;
+  }
 }
 
 .reviewsList {
@@ -24,6 +34,16 @@
   display: flex;
   align-items: center;
   gap: 16px;
+
+  @include media(desktop) {
+    gap: 24px;
+  }
+}
+
+.reviewBox:nth-child(2n) {
+  @include media(desktop) {
+    justify-content: flex-end;
+  }
 }
 
 .first {
@@ -32,6 +52,10 @@
   flex-wrap: wrap;
   align-items: flex-end;
   order: 1;
+
+  @include media(desktop) {
+    justify-content: flex-end;
+  }
 }
 
 .first span {
@@ -44,21 +68,53 @@
 
 .reviewBox img {
   width: 50%;
+
+  @include media(desktop) {
+    width: 167px;
+  }
 }
 
 .reviewDescr {
   width: 50%;
+
+  @include media(desktop) {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    gap: 0 24px;
+    width: 548px;
+  }
+}
+
+.reverse {
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+
+  @include media(desktop) {
+    flex-direction: row-reverse;
+    gap: 24px;
+  }
 }
 
 .reviewBox p,
 .reviewBox span {
   color: #fbfbfb;
+
+  @include media(desktop) {
+    text-wrap: balance;
+  }
 }
 
 .reviewBox p {
   font-family: var(--second-family);
   font-weight: 500;
   font-size: 14px;
+
+  @include media(desktop) {
+    font-size: 32px;
+  }
 }
 
 .stars {
@@ -66,15 +122,30 @@
   gap: 5.5px;
   margin-bottom: 8px;
   height: 22px;
+
+  @include media(desktop) {
+    gap: 8px;
+    height: 32px;
+    margin-bottom: 0;
+  }
 }
 
 .stars img {
   width: 22px;
   height: 22px;
+
+  @include media(desktop) {
+    width: 32px;
+    height: 32px;
+  }
 }
 
 .reviewBox span {
   font-family: var(--first-family);
   font-weight: 400;
   font-size: 12px;
+
+  @include media(desktop) {
+    margin-top: 8px;
+  }
 }
