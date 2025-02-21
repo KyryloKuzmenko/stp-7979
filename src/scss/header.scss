@@ -29,10 +29,14 @@
   }
 }
 
+.burger {
+  width: 28px;
+  height: 36px;
+}
+
 .header-menu-open-btn {
   background: transparent;
-  width: 28px;
-  height: 38px;
+
   border: none;
   display: flex;
   align-items: center;
