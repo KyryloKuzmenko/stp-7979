@@ -13,7 +13,7 @@
     <script type="module" crossorigin src="/stp-7979/commonHelpers2.js"></script>
     <link rel="modulepreload" crossorigin href="/stp-7979/assets/vendor-8ff6197b.js">
     <link rel="stylesheet" href="/stp-7979/assets/vendor-fef9b9da.css">
-    <link rel="stylesheet" href="/stp-7979/assets/index-15b9536f.css">
+    <link rel="stylesheet" href="/stp-7979/assets/index-c59802f3.css">
   </head>
   <body>
     <header class="header-section">
@@ -31,9 +31,7 @@
       <li class="menu-hiden-item"><a class="item-link" href="">Reviews</a></li>
     </ul>
     <button class="header-menu-open-btn">
-      <svg class="menu-open-button-svg" width="28" height="38">
-        <use href="/stp-7979/sprite.svg#icon-menu"/>
-      </svg>
+      <img class="burger" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABwAAAAmCAYAAADX7PtfAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAEISURBVHgB7dbBTcMwFMbx/zMR5YLIBuTKjW4AIzACE6CwAO2JA4LABIgJ6AZ0A0CAuGYDXLjQqo15bmbwU5H8kyL79slS/PyBMflsqELgSb+KhERouyUnRRd4JHFYFA/kChqnYYcY0dAjp2uLndYFGGNktaSWuHm+pBoM2Ceh+YzX4RhPlm289bX4uGakS9Jr4YTpwTkP8n7DrQTOsDESPd2XbkpseIexGDjBzqRYOOrtrn+vSEgf4OnimzuybOP1FaPRSfObeNrs4Ic1Xt6utLptrbtp6vHmw4pjp2GNQVhUSsG9aRGOWTHwBSua5ULHKTbt28es/i+9oBzsskdC8x9muQhn/8MfdzhUExms2dsAAAAASUVORK5CYII=" alt="burger menu">
     </button>
   </div>
 </header>
@@ -301,8 +299,52 @@
   </div>
 </section>
 
-      <section>
-  <p>faq</p>
+      <section class="faq-section container">
+  <h3 class="faq-title">FAQ</h3>
+  <ul class="faq-list">
+    <li class="faq-item">
+      <div class="accordion-wrap">
+        <h4 class="faq">What is Cat Quest?</h4>
+        <button class="accordion-btn"><img class="arrow-down" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACsAAAArCAYAAADhXXHAAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAIcSURBVHgB7ZjhccIwDIVfu0CzQT0CG9QbwAZkA9iAbkA7AXQC2glCJ4ANoBNAJ2iji3Q2HMRKYtP+yHenA86y/XhOHDlAT09PD3GH+Bjv+x7/DFvGvIxNGT8XYsPtFh3p4uyojIkn4ojKya2XY8oYlJHxb2p/LuMNN8KUUaBy7YDKtadAH2pfwLld4PRySQK5tOMJV3COaTFwonc8XhJo4ANPNEE3pnArE12wgXM0tORaLJzDBhGRa1TjaMZCjCJXHC4QiZwHXDTMHyvzV5w/QgRk+Y0yP0czsbQSdO0G3b0PtFtUIpdI9zQ68vgWgQdHSOyQP5dIy8fZfBfROEv//BNpWfM8ti4pJJb2wC1uwx6BPbdOrPEGudTW5gmWcT9zoU1MebzWOeTsNUYcBfSCM86nfkO0oK3YF1TV0wA6wSJ0wP1ea3K/0RKpR68x83JEcI7TfTaDq3VnNWPJU7I1NMkhkHMuOIcTqxUKnmeDDsx5IhvI8wVP4OoIrVDLeXN0wDYYRARLSDkZEkosEKmiK3hizV1/Llgj1MCVip0ZwZ0MNIhgjVBCXB0jEnKnTpX52uWMXs8SBq5UtIiDRaKTAuGfwbQOXyPpGUzwT7d0rRk0Q2qD5KdbwcBdwyLaBvpQO21/sjKt3ht0eSOTo7rjDf+mepQqp72XM+B22fbWqOqCd/wRdOdr3nV13vBTvEUkFx/4+xd6enp6ovMLxVis4WzRbtUAAAAASUVORK5CYII=" alt=""></button>
+      </div>
+      <p class="faq-content">Cat Quest is an open-world action RPG where players control a heroic feline on a quest to save the kingdom from evil forces.</p>
+    </li>
+    <li class="faq-item">
+      <div class="accordion-wrap">
+        <h4 class="faq">Is the game free to play?</h4>
+        <button class="accordion-btn"><img class="arrow-down" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACsAAAArCAYAAADhXXHAAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAIcSURBVHgB7ZjhccIwDIVfu0CzQT0CG9QbwAZkA9iAbkA7AXQC2glCJ4ANoBNAJ2iji3Q2HMRKYtP+yHenA86y/XhOHDlAT09PD3GH+Bjv+x7/DFvGvIxNGT8XYsPtFh3p4uyojIkn4ojKya2XY8oYlJHxb2p/LuMNN8KUUaBy7YDKtadAH2pfwLld4PRySQK5tOMJV3COaTFwonc8XhJo4ANPNEE3pnArE12wgXM0tORaLJzDBhGRa1TjaMZCjCJXHC4QiZwHXDTMHyvzV5w/QgRk+Y0yP0czsbQSdO0G3b0PtFtUIpdI9zQ68vgWgQdHSOyQP5dIy8fZfBfROEv//BNpWfM8ti4pJJb2wC1uwx6BPbdOrPEGudTW5gmWcT9zoU1MebzWOeTsNUYcBfSCM86nfkO0oK3YF1TV0wA6wSJ0wP1ea3K/0RKpR68x83JEcI7TfTaDq3VnNWPJU7I1NMkhkHMuOIcTqxUKnmeDDsx5IhvI8wVP4OoIrVDLeXN0wDYYRARLSDkZEkosEKmiK3hizV1/Llgj1MCVip0ZwZ0MNIhgjVBCXB0jEnKnTpX52uWMXs8SBq5UtIiDRaKTAuGfwbQOXyPpGUzwT7d0rRk0Q2qD5KdbwcBdwyLaBvpQO21/sjKt3ht0eSOTo7rjDf+mepQqp72XM+B22fbWqOqCd/wRdOdr3nV13vBTvEUkFx/4+xd6enp6ovMLxVis4WzRbtUAAAAASUVORK5CYII=" alt=""></button>
+      </div>
+      <p class="faq-content">The game is available for purchase, with no intrusive microtransactions, ensuring a complete experience.</p>
+    </li>
+    <li class="faq-item">
+      <div class="accordion-wrap">
+        <h4 class="faq">Can I play offline?</h4>
+        <button class="accordion-btn"><img class="arrow-down" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACsAAAArCAYAAADhXXHAAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAIcSURBVHgB7ZjhccIwDIVfu0CzQT0CG9QbwAZkA9iAbkA7AXQC2glCJ4ANoBNAJ2iji3Q2HMRKYtP+yHenA86y/XhOHDlAT09PD3GH+Bjv+x7/DFvGvIxNGT8XYsPtFh3p4uyojIkn4ojKya2XY8oYlJHxb2p/LuMNN8KUUaBy7YDKtadAH2pfwLld4PRySQK5tOMJV3COaTFwonc8XhJo4ANPNEE3pnArE12wgXM0tORaLJzDBhGRa1TjaMZCjCJXHC4QiZwHXDTMHyvzV5w/QgRk+Y0yP0czsbQSdO0G3b0PtFtUIpdI9zQ68vgWgQdHSOyQP5dIy8fZfBfROEv//BNpWfM8ti4pJJb2wC1uwx6BPbdOrPEGudTW5gmWcT9zoU1MebzWOeTsNUYcBfSCM86nfkO0oK3YF1TV0wA6wSJ0wP1ea3K/0RKpR68x83JEcI7TfTaDq3VnNWPJU7I1NMkhkHMuOIcTqxUKnmeDDsx5IhvI8wVP4OoIrVDLeXN0wDYYRARLSDkZEkosEKmiK3hizV1/Llgj1MCVip0ZwZ0MNIhgjVBCXB0jEnKnTpX52uWMXs8SBq5UtIiDRaKTAuGfwbQOXyPpGUzwT7d0rRk0Q2qD5KdbwcBdwyLaBvpQO21/sjKt3ht0eSOTo7rjDf+mepQqp72XM+B22fbWqOqCd/wRdOdr3nV13vBTvEUkFx/4+xd6enp6ovMLxVis4WzRbtUAAAAASUVORK5CYII=" alt=""></button>
+      </div>
+      <p class="faq-content">Yes! Cat Quest offers a full single-player experience without requiring an internet connection.</p>
+    </li>
+    <li class="faq-item">
+      <div class="accordion-wrap">
+        <h4 class="faq">Will there be updates and expansions?</h4>
+        <button class="accordion-btn"><img class="arrow-down" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACsAAAArCAYAAADhXXHAAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAIcSURBVHgB7ZjhccIwDIVfu0CzQT0CG9QbwAZkA9iAbkA7AXQC2glCJ4ANoBNAJ2iji3Q2HMRKYtP+yHenA86y/XhOHDlAT09PD3GH+Bjv+x7/DFvGvIxNGT8XYsPtFh3p4uyojIkn4ojKya2XY8oYlJHxb2p/LuMNN8KUUaBy7YDKtadAH2pfwLld4PRySQK5tOMJV3COaTFwonc8XhJo4ANPNEE3pnArE12wgXM0tORaLJzDBhGRa1TjaMZCjCJXHC4QiZwHXDTMHyvzV5w/QgRk+Y0yP0czsbQSdO0G3b0PtFtUIpdI9zQ68vgWgQdHSOyQP5dIy8fZfBfROEv//BNpWfM8ti4pJJb2wC1uwx6BPbdOrPEGudTW5gmWcT9zoU1MebzWOeTsNUYcBfSCM86nfkO0oK3YF1TV0wA6wSJ0wP1ea3K/0RKpR68x83JEcI7TfTaDq3VnNWPJU7I1NMkhkHMuOIcTqxUKnmeDDsx5IhvI8wVP4OoIrVDLeXN0wDYYRARLSDkZEkosEKmiK3hizV1/Llgj1MCVip0ZwZ0MNIhgjVBCXB0jEnKnTpX52uWMXs8SBq5UtIiDRaKTAuGfwbQOXyPpGUzwT7d0rRk0Q2qD5KdbwcBdwyLaBvpQO21/sjKt3ht0eSOTo7rjDf+mepQqp72XM+B22fbWqOqCd/wRdOdr3nV13vBTvEUkFx/4+xd6enp6ovMLxVis4WzRbtUAAAAASUVORK5CYII=" alt=""></button>
+      </div>
+      <p class="faq-content">Cat Quest is available on Google Play, App Store, PC, and major gaming consoles.</p>
+    </li>
+    <li class="faq-item">
+      <div class="accordion-wrap">
+        <h4 class="faq">Are there different difficulty levels?</h4>
+        <button class="accordion-btn"><img class="arrow-down" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACsAAAArCAYAAADhXXHAAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAIcSURBVHgB7ZjhccIwDIVfu0CzQT0CG9QbwAZkA9iAbkA7AXQC2glCJ4ANoBNAJ2iji3Q2HMRKYtP+yHenA86y/XhOHDlAT09PD3GH+Bjv+x7/DFvGvIxNGT8XYsPtFh3p4uyojIkn4ojKya2XY8oYlJHxb2p/LuMNN8KUUaBy7YDKtadAH2pfwLld4PRySQK5tOMJV3COaTFwonc8XhJo4ANPNEE3pnArE12wgXM0tORaLJzDBhGRa1TjaMZCjCJXHC4QiZwHXDTMHyvzV5w/QgRk+Y0yP0czsbQSdO0G3b0PtFtUIpdI9zQ68vgWgQdHSOyQP5dIy8fZfBfROEv//BNpWfM8ti4pJJb2wC1uwx6BPbdOrPEGudTW5gmWcT9zoU1MebzWOeTsNUYcBfSCM86nfkO0oK3YF1TV0wA6wSJ0wP1ea3K/0RKpR68x83JEcI7TfTaDq3VnNWPJU7I1NMkhkHMuOIcTqxUKnmeDDsx5IhvI8wVP4OoIrVDLeXN0wDYYRARLSDkZEkosEKmiK3hizV1/Llgj1MCVip0ZwZ0MNIhgjVBCXB0jEnKnTpX52uWMXs8SBq5UtIiDRaKTAuGfwbQOXyPpGUzwT7d0rRk0Q2qD5KdbwcBdwyLaBvpQO21/sjKt3ht0eSOTo7rjDf+mepQqp72XM+B22fbWqOqCd/wRdOdr3nV13vBTvEUkFx/4+xd6enp6ovMLxVis4WzRbtUAAAAASUVORK5CYII=" alt=""></button>
+      </div>
+      <p class="faq-content">The game offers various challenges, allowing both casual and hardcore players to enjoy the adventure.</p>
+    </li>
+    <li class="faq-item">
+      <div class="accordion-wrap">
+        <h4 class="faq">What platforms is the game available on?</h4>
+        <button class="accordion-btn"><img class="arrow-down" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACsAAAArCAYAAADhXXHAAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAIcSURBVHgB7ZjhccIwDIVfu0CzQT0CG9QbwAZkA9iAbkA7AXQC2glCJ4ANoBNAJ2iji3Q2HMRKYtP+yHenA86y/XhOHDlAT09PD3GH+Bjv+x7/DFvGvIxNGT8XYsPtFh3p4uyojIkn4ojKya2XY8oYlJHxb2p/LuMNN8KUUaBy7YDKtadAH2pfwLld4PRySQK5tOMJV3COaTFwonc8XhJo4ANPNEE3pnArE12wgXM0tORaLJzDBhGRa1TjaMZCjCJXHC4QiZwHXDTMHyvzV5w/QgRk+Y0yP0czsbQSdO0G3b0PtFtUIpdI9zQ68vgWgQdHSOyQP5dIy8fZfBfROEv//BNpWfM8ti4pJJb2wC1uwx6BPbdOrPEGudTW5gmWcT9zoU1MebzWOeTsNUYcBfSCM86nfkO0oK3YF1TV0wA6wSJ0wP1ea3K/0RKpR68x83JEcI7TfTaDq3VnNWPJU7I1NMkhkHMuOIcTqxUKnmeDDsx5IhvI8wVP4OoIrVDLeXN0wDYYRARLSDkZEkosEKmiK3hizV1/Llgj1MCVip0ZwZ0MNIhgjVBCXB0jEnKnTpX52uWMXs8SBq5UtIiDRaKTAuGfwbQOXyPpGUzwT7d0rRk0Q2qD5KdbwcBdwyLaBvpQO21/sjKt3ht0eSOTo7rjDf+mepQqp72XM+B22fbWqOqCd/wRdOdr3nV13vBTvEUkFx/4+xd6enp6ovMLxVis4WzRbtUAAAAASUVORK5CYII=" alt=""></button>
+      </div>
+      <p class="faq-content">Yes! Future updates will include additional quests, new areas to explore, and exciting gameplay features.</p>
+    </li>
+  </ul>
 </section>
       <section>
   <div class="reviewsWrap container">
