@@ -1,0 +1,87 @@
+.cookiesWrap {
+  width: 100%;
+  position: fixed;
+  left: 50%;
+  bottom: 0;
+  display: none;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  transform: translateX(-50%);
+  padding-top: 32px;
+  padding-bottom: 66px;
+  background-color: #110a16;
+  border-radius: 10px 10px 0 0;
+  z-index: 9999;
+
+  @include media(desktop) {
+    width: 930px;
+    border-radius: 10px;
+    bottom: 34px;
+    padding-top: 42px;
+    padding-bottom: 54px;
+  }
+}
+
+.cookiesTitle {
+  font-family: var(--second-family);
+  font-weight: 600;
+  font-size: 26px;
+  text-align: center;
+  color: #fff;
+
+  @include media(desktop) {
+    font-size: 40px;
+  }
+}
+
+.cookiesMsg {
+  width: 280px;
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 12px;
+  text-align: center;
+  color: #fff;
+  margin: 16px 0 24px;
+
+  @include media(desktop) {
+    width: 643px;
+    font-size: 18px;
+    margin: 30px 0 54px;
+  }
+}
+
+.cookiesControl {
+  display: flex;
+  gap: 16px;
+}
+
+.cookiesControl button {
+  width: 132px;
+  height: 46px;
+  border-radius: 10px;
+  background-color: #d58d00;
+  border: none;
+  font-family: var(--second-family);
+  font-weight: 500;
+  font-size: 14px;
+  text-transform: uppercase;
+  color: #000;
+
+  @include media(desktop) {
+    width: 357px;
+    height: 56px;
+    font-size: 24px;
+    font-weight: 400;
+  }
+}
+
+.cookiesControl button:last-child {
+  @include media(mobile) {
+    letter-spacing: -0.5px;
+  }
+}
+
+.cookiesControl button:hover {
+  opacity: 0.8;
+}
