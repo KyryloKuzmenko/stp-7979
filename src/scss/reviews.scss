@@ -94,6 +94,7 @@
 
   @include media(desktop) {
     flex-direction: row-reverse;
+    align-items: center;
     gap: 24px;
   }
 }
