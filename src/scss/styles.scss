@@ -50,3 +50,11 @@ h5,
 h6 {
   font-family: var(--second-family);
 }
+
+html {
+  scroll-behavior: smooth;
+}
+
+section {
+  scroll-margin-top: 70px; 
+}
