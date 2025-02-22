@@ -1,22 +1,21 @@
-
 .characters-section {
   /* Основное фоновое изображение */
-  background-image:
-    linear-gradient(rgba(0, 0, 0, 1), rgba(0, 0, 0, 1)),
+  background-image: linear-gradient(rgba(0, 0, 0, 1), rgba(0, 0, 0, 1)),
     url('/img/main-characters-bg-mobile.png');
-
 
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-
   background-blend-mode: overlay;
-
   display: flex;
   flex-direction: column;
 
-}
+  @include media(desktop) {
+    background-image: linear-gradient(rgba(0, 0, 0, 1), rgba(0, 0, 0, 1)),
+      url('/img/main-characters-bg.png');
 
+  }
+}
 
 .main-characters-list {
   display: flex;
@@ -26,6 +25,10 @@
   gap: 24px;
   margin-top: 24px;
   margin-bottom: 32px;
+
+  @include media(desktop) {
+    flex-direction: row;
+  }
 }
 
 .character-item-wrap {
@@ -43,6 +46,10 @@
   font-size: 26px;
   color: #d58d00;
   margin-top: 32px;
+
+  @include media(desktop) {
+    font-size: 40px;
+  }
 }
 
 .character-name {
@@ -51,6 +58,8 @@
   text-align: center;
   color: #fbfbfb;
   margin-bottom: 16px;
+
+
 }
 
 .characters-description {
