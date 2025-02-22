@@ -86,13 +86,14 @@
 }
 
 .swiper-button-next {
-  background: url('/img/right-arrow.png') no-repeat;
+  background: url('/img/slider-arrow.png') no-repeat;
   background-size: cover;
   right: 0 !important;
+  transform: rotate(180deg);
 }
 
 .swiper-button-prev {
-  background: url('/img/left-arrow.png') no-repeat;
+  background: url('/img/slider-arrow.png') no-repeat;
   background-size: cover;
   left: 0 !important;
 }
