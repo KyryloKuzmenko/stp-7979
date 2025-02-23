@@ -48,7 +48,11 @@
 .cookies-policy-wrapper .cookieBox {
   display: flex;
   flex-direction: column;
-  gap: 20px;
+  gap: 16px;
+
+  @include media(desktop) {
+    gap: 20px;
+  }
 }
 
 .cookies-policy-wrapper .cookieBox .title {
@@ -70,8 +74,12 @@
 .cookies-policy-wrapper .cookieBox p {
   font-family: var(--font-family);
   font-weight: 400;
-  font-size: 18px;
+  font-size: 12px;
   color: #fbfbfb;
+
+  @include media(desktop) {
+    font-size: 18px;
+  }
 }
 
 .cookies-policy-wrapper .cookieBox ul {
