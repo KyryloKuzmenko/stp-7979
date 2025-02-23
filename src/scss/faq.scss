@@ -47,6 +47,11 @@
   flex-direction: column;
   gap: 16px;
   margin-top: 45px;
+
+  @include media(desktop) {
+    width: 679px;
+    margin: 40px auto;
+  }
 }
 
 
